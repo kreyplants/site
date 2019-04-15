@@ -36,7 +36,6 @@ body, html{
 }
 
 .kp-logo{
-  filter: invert(100%);
   vertical-align: middle;
   position: relative;
   top: 30px;
