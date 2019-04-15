@@ -39,6 +39,7 @@ body, html{
   vertical-align: middle;
   position: relative;
   top: 30px;
+  filter: none;
 }
 
 .kp-brand {
