@@ -1,6 +1,6 @@
-* {
-  margin: 0;
-  padding: 0; }
+*, ul, li {
+  margin: 0px;
+  padding: 0px; }
 
 body, h1, h2, h3, h4, h5, h6, p {
   position: relative;
@@ -8,7 +8,7 @@ body, h1, h2, h3, h4, h5, h6, p {
   background: none; }
 
 nav {
-  padding: 25px 20px 20px; }
+  padding: 20px; }
 
 .gradient-background {
   background: linear-gradient(90deg, #db28f1, #21a7e0, #00a675);
@@ -26,20 +26,20 @@ nav {
     background-position: 0 50%; } }
 nav a {
   position: relative;
-  padding: 20px;
-  border-top-left-radius: 20px;
-  border-top-right-radius: 20px;
+  padding: 20px 20px 20px 20px;
   color: #ffffff;
   text-decoration: none;
   font-weight: bold;
   filter: opacity(0.5); }
 
 nav a:hover {
-  text-decoration: overline;
+  background: rgba(255, 255, 255, 0.2);
   filter: none; }
 
 .current {
-  filter: none; }
+  filter: none;
+  background: rgba(255, 255, 255, 0.2);
+  color: white; }
 
 .body-wrapper {
   min-width: 100%;
@@ -85,7 +85,7 @@ nav a:hover {
   z-index: -1; }
 
 .hero-header {
-  min-height: 100vh;
+  min-height: 90vh;
   width: 100vw;
   margin: auto;
   max-width: 1000px; }
@@ -93,5 +93,7 @@ nav a:hover {
 .welcome {
   font-size: 7rem;
   padding-top: 25%;
-  padding-bottom: 100vh;
-  font-weight: bold; }
+  font-weight: bold;
+  color: transparent;
+  -moz-background-clip: text;
+  -webkit-background-clip: text; }
