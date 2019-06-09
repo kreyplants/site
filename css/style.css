@@ -9,6 +9,7 @@ body, html {
 	-moz-animation: Gradient 15s ease infinite;
 	animation: Gradient 15s ease infinite;
 	font-family: "Open Sans";
+
 }
 @keyframes Gradient {
 	0% {
