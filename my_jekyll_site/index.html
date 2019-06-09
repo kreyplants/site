@@ -1,0 +1,26 @@
+---
+layout: default
+title: KreyPlants
+---
+<div class="hero-header">
+  <div class="welcome gradient-background">Welcome.</div>
+</div>
+
+<div class="body-wrapper">
+  <div class="content-wrapper">
+    <div class="grid-wrapper">
+      {% for post in site.posts %}
+      <div class="post-card">
+        <div class="post-content">
+          <p>{{ post.category }} {{ post.date }}</p>
+          <a href="{{ post.url }}">
+            <h2>{{ post.title }}</h2>
+          </a>
+          <p>{{ post.author }}</p>
+        </div>
+        <img src="{{ post.img }}">
+      </div>
+      {% endfor %}
+    </div>
+  </div>
+</div>
