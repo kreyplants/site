@@ -8,6 +8,7 @@ body, html {
 	-webkit-animation: Gradient 15s ease infinite;
 	-moz-animation: Gradient 15s ease infinite;
 	animation: Gradient 15s ease infinite;
+	font-family: "Roboto";
 }
 @keyframes Gradient {
 	0% {
@@ -54,7 +55,6 @@ body, html {
 }
 
 .kp-brand {
-	font-family: "Roboto";
 	font-size: 30pt;
 	letter-spacing: .2em;
 	border-top-style: solid;
@@ -66,7 +66,6 @@ body, html {
 
 .kp-slogan {
 	position: absolute;
-	font-family: "Roboto";
 	border-top-style: solid;
 	letter-spacing: .4em;
 	padding-top: .5em;
@@ -99,7 +98,6 @@ body, html {
 }
 
 p1 {
-	font-family: 'Roboto';
  	font-size: 20px;
 	text-align: right;
 }
