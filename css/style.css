@@ -49,11 +49,11 @@ p1 {
   text-align: center;
   background: rgba(0, 0, 0, .05);
   left: 0;
-  height: 100%;
+  height: 50px;
 }
 .social-buttons img {
   width: 30px;
-  padding: 10px;
+  margin: 10px;
 }
 .fa {
   text-align: center;
@@ -100,7 +100,6 @@ p1 {
   background-size: 225px 22px;
   animation: dynamic-shadow 6s infinite ease-in-out;
 }
-
 @-webkit-keyframes dynamic-shadow {
   50% {
     background-size: 215px 18px;
