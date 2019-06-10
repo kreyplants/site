@@ -51,8 +51,8 @@ p1 {
   left: 0;
   height: 50px;
 }
-.social-buttons a img {
-  height: 30px;
+.social-buttons img {
+  width: 30px;
 }
 .fa {
   text-align: center;
