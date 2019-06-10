@@ -49,10 +49,11 @@ p1 {
   text-align: center;
   background: rgba(0, 0, 0, .05);
   left: 0;
-  height: 50px;
+  height: 100%;
 }
 .social-buttons img {
   width: 30px;
+  padding: 10px;
 }
 .fa {
   text-align: center;
