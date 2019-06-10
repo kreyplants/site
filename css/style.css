@@ -57,9 +57,6 @@ p1 {
 .fa a img {
     width: 30px;
 }
-.fa:hover {
-  filter: invert();
-}
 .gradient-text {
   background: linear-gradient(90deg, rgb(219, 40, 241), rgb(33, 167, 224), rgb(0, 166, 117));
   background-size: 500vw 500vh;
