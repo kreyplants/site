@@ -57,7 +57,7 @@ p1 {
 .fa a img {
     width: 30px;
 }
-.fa a:hover {
+.fa:hover {
   filter: invert();
 }
 .gradient-text {
