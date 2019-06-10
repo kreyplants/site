@@ -59,7 +59,7 @@ p1 {
   margin: 10px;
   color: white;
 }
-.fa img {
+.fa a img {
     width: 30px;
 }
 .fa:hover {
