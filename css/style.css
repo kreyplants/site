@@ -50,20 +50,16 @@ p1 {
   font-size: 40px;
   background: rgba(0, 0, 0, .05);
   left: 0;
-  padding-bottom: .4em;
 }
 .fa {
-  padding: 10px;
   text-align: center;
   text-decoration: none;
-  margin: 10px;
-  color: white;
 }
 .fa a img {
     width: 30px;
 }
-.fa:hover {
-  color: yellow;
+.fa a img:hover {
+  filter: invert();
 }
 .gradient-text {
   background: linear-gradient(90deg, rgb(219, 40, 241), rgb(33, 167, 224), rgb(0, 166, 117));
