@@ -49,13 +49,11 @@ p1 {
   text-align: center;
   background: rgba(0, 0, 0, .05);
   left: 0;
+  height: 50px;
 }
 .fa {
   text-align: center;
   text-decoration: none;
-}
-.fa img {
-    width: 30px;
 }
 .gradient-text {
   background: linear-gradient(90deg, rgb(219, 40, 241), rgb(33, 167, 224), rgb(0, 166, 117));
