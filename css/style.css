@@ -57,8 +57,10 @@ p1 {
   text-align: center;
   text-decoration: none;
   margin: 10px;
-  width: 30px;
   color: white;
+}
+.fa img {
+    width: 30px;
 }
 .fa:hover {
   color: yellow;
