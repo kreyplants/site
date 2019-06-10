@@ -51,7 +51,7 @@ p1 {
   left: 0;
   height: 50px;
 }
-.social-buttons img {
+.social-buttons a img {
   height: 30px;
 }
 .fa {
