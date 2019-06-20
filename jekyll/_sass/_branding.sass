@@ -1,0 +1,65 @@
+.hero-header
+  width: 100vw
+  height: 100vh
+
+
+.brand-container
+  height: 100vh
+  position: absolute
+  top: 25%
+  left: 50%
+  transform: translate(-50%, -50%)
+
+.brand-block
+  display: inline-block
+  margin: 0
+  text-align: center
+  vertical-align: middle
+
+.brand-block img
+  width: 250px
+
+.kp-logo
+  filter: none
+  display: inline-block
+  vertical-align: middle
+
+.kp-brand
+  font-size: 5rem
+  letter-spacing: .2em
+  width: 100%
+  font-weight: 400
+
+.kp-slogan
+  font-size: 2rem
+  letter-spacing: .2em
+  width: 100%
+
+.shadow
+  padding-bottom: 25px
+  background: url(http://media.kulturbanause.de/blog/2013/10/hovering-css/shadow.png) bottom no-repeat
+  background-size: 225px 22px
+  animation: dynamic-shadow 6s infinite ease-in-out
+
+@-webkit-keyframes dynamic-shadow
+  50%
+    background-size: 215px 18px
+
+@-moz-keyframes dynamic-shadow
+  50%
+    background-size: 215px 18px
+
+@keyframes dynamic-shadow
+  50%
+    background-size: 215px 18px
+
+.float
+  animation: float 6s ease-in-out infinite
+
+@keyframes float
+  0%
+    transform: translatey(0px)
+  50%
+    transform: translatey(-10px)
+  100%
+    transform: translatey(0px)

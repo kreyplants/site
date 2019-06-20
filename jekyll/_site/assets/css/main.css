@@ -29,12 +29,6 @@ p {
   min-width: 300px;
   max-width: 1000px; }
 
-.hero-header {
-  margin: auto;
-  min-height: 90vh;
-  max-width: 1000px;
-  width: 100vw; }
-
 .welcome {
   padding-top: 25%;
   font-weight: bold;
@@ -43,6 +37,12 @@ p {
 .footer {
   position: relative;
   min-height: 25vh; }
+
+.nav-container {
+  position: fixed;
+  top: 0;
+  width: 100%;
+  z-index: 100; }
 
 nav {
   padding: 20px;
@@ -70,6 +70,31 @@ nav a:hover {
   -moz-background-clip: text;
   -webkit-background-clip: text;
   filter: none; }
+
+.block-container {
+  width: 100%;
+  height: 100%;
+  z-index: 1;
+  background: white; }
+
+.block {
+  position: relative;
+  width: 100%;
+  height: 100%;
+  background: white; }
+
+.block::before, .block::after {
+  content: "";
+  position: absolute;
+  top: 0px;
+  left: 0px;
+  background: linear-gradient(90deg, #db28f1, #21a7e0, #00a675);
+  background-size: 500vw 500vh;
+  width: 100%;
+  height: 100%;
+  z-index: -1;
+  animation: Gradient 120s ease infinite;
+  filter: blur(10px); }
 
 .gradient-background {
   background: linear-gradient(90deg, #db28f1, #21a7e0, #00a675);
@@ -122,3 +147,65 @@ nav a:hover {
   display: block;
   width: 640px;
   height: 480px; }
+
+.hero-header {
+  width: 100vw;
+  height: 100vh; }
+
+.brand-container {
+  height: 100vh;
+  position: absolute;
+  top: 25%;
+  left: 50%;
+  transform: translate(-50%, -50%); }
+
+.brand-block {
+  display: inline-block;
+  margin: 0;
+  text-align: center;
+  vertical-align: middle; }
+
+.brand-block img {
+  width: 250px; }
+
+.kp-logo {
+  filter: none;
+  display: inline-block;
+  vertical-align: middle; }
+
+.kp-brand {
+  font-size: 5rem;
+  letter-spacing: 0.2em;
+  width: 100%;
+  font-weight: 400; }
+
+.kp-slogan {
+  font-size: 2rem;
+  letter-spacing: 0.2em;
+  width: 100%; }
+
+.shadow {
+  padding-bottom: 25px;
+  background: url(http://media.kulturbanause.de/blog/2013/10/hovering-css/shadow.png) bottom no-repeat;
+  background-size: 225px 22px;
+  animation: dynamic-shadow 6s infinite ease-in-out; }
+
+@-webkit-keyframes dynamic-shadow {
+  50% {
+    background-size: 215px 18px; } }
+@-moz-keyframes dynamic-shadow {
+  50% {
+    background-size: 215px 18px; } }
+@keyframes dynamic-shadow {
+  50% {
+    background-size: 215px 18px; } }
+.float {
+  animation: float 6s ease-in-out infinite; }
+
+@keyframes float {
+  0% {
+    transform: translatey(0px); }
+  50% {
+    transform: translatey(-10px); }
+  100% {
+    transform: translatey(0px); } }

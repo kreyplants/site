@@ -1,7 +1,11 @@
-  <nav class="gradient-text">
-    <div class="content-wrapper">
-    {% for item in site.data.nav %}
-    <a href="{{ item.link }}" {% if page.url == item.link %}class="current" {% endif %}>{{ item.name }}</a>
-    {% endfor %}
-    </div>
-  </nav>
+<div class="nav-container">
+  <div class="block-container">
+    <nav class="gradient-text block">
+      <div class="content-wrapper">
+      {% for item in site.data.nav %}
+      <a href="{{ item.link }}" {% if page.url == item.link %}class="current" {% endif %}>{{ item.name }}</a>
+      {% endfor %}
+      </div>
+    </nav>
+  </div>
+</div>
