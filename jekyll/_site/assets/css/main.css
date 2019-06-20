@@ -45,7 +45,8 @@ p {
   min-height: 25vh; }
 
 nav {
-  padding: 20px; }
+  padding: 20px;
+  list-style: none; }
 
 nav a {
   position: relative;
@@ -56,12 +57,18 @@ nav a {
   filter: opacity(0.5); }
 
 nav a:hover {
-  background: rgba(255, 255, 255, 0.2);
+  color: transparent;
   filter: none; }
 
 .current {
-  background: rgba(255, 255, 255, 0.2);
-  color: white;
+  background: linear-gradient(90deg, #db28f1, #21a7e0, #00a675);
+  background-size: 500vw 500vh;
+  -webkit-animation: Gradient 120s ease infinite;
+  -moz-animation: Gradient 120s ease infinite;
+  animation: Gradient 120s ease infinite;
+  color: transparent;
+  -moz-background-clip: text;
+  -webkit-background-clip: text;
   filter: none; }
 
 .gradient-background {
@@ -78,6 +85,16 @@ nav a:hover {
     background-position: 100% 50%; }
   100% {
     background-position: 0 50%; } }
+.gradient-text {
+  background: linear-gradient(90deg, #db28f1, #21a7e0, #00a675);
+  background-size: 500vw 500vh;
+  -webkit-animation: Gradient 120s ease infinite;
+  -moz-animation: Gradient 120s ease infinite;
+  animation: Gradient 120s ease infinite;
+  color: transparent;
+  -moz-background-clip: text;
+  -webkit-background-clip: text; }
+
 .post-card {
   position: relative;
   display: block;

@@ -1,5 +1,6 @@
 nav
   padding: 20px
+  list-style: none
 
 nav a
   position: relative
@@ -10,10 +11,16 @@ nav a
   filter: opacity(0.5)
 
 nav a:hover
-  background: rgba(255, 255, 255, 0.2)
+  color: transparent
   filter: none
 
 .current
-  background: rgba(255, 255, 255, 0.2)
-  color: white
+  background: linear-gradient(90deg, rgb(219, 40, 241), rgb(33, 167, 224), rgb(0, 166, 117))
+  background-size: 500vw 500vh
+  -webkit-animation: Gradient 120s ease infinite
+  -moz-animation: Gradient 120s ease infinite
+  animation: Gradient 120s ease infinite
+  color: transparent
+  -moz-background-clip: text
+  -webkit-background-clip: text
   filter: none
