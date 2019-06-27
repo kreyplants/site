@@ -125,6 +125,13 @@ nav a:hover {
   -moz-background-clip: text;
   -webkit-background-clip: text; }
 
+.cards-list {
+  z-index: 0;
+  width: 100%;
+  display: flex;
+  justify-content: space-around;
+  flex-wrap: wrap; }
+
 .post-card-container {
   width: 300px;
   height: 300px;
@@ -231,21 +238,22 @@ nav a:hover {
     -webkit-transition: all 1.5s ease; }
 
 .hero-header {
-  width: 100vw;
-  height: 100vh; }
+  height: 100%;
+  width: 100%; }
 
 .brand-container {
-  height: 100vh;
+  height: 100%;
+  width: 100%;
   position: absolute;
-  top: 25%;
-  left: 50%;
-  transform: translate(-50%, -50%); }
+  background: green; }
 
 .brand-block {
   display: inline-block;
   margin: 0;
   text-align: center;
-  vertical-align: middle; }
+  vertical-align: middle;
+  background: blue;
+  transform: translateX(50%) translateY(50%); }
 
 .brand-block img {
   width: 250px; }
