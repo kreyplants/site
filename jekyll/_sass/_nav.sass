@@ -1,9 +1,3 @@
-.nav-container
-  position: fixed
-  top: 0
-  width: 100%
-  z-index: 100
-
 nav
   padding: 20px
   list-style: none
@@ -31,17 +25,57 @@ nav a:hover
   -webkit-background-clip: text
   filter: none
 
-.block-container
+.nav-container-0
+  position: fixed
+  top: 0
+  left: 0
+  width: 100%
+  z-index: 100
+
+.nav-container-1
+  width: 100%
+  height: 100%
+  z-index: 1 //important
+  background: #FFFFFF
+
+.post-nav-container-0
+  position: fixed
+  top: 0
+  left: 0
+  width: 100%
+  z-index: 100
+  height: 50vh
+  object-fit: cover
+
+.post-nav-container-1
   width: 100%
   height: 100%
   z-index: 1 //important
   background: white
 
+.post-nav-img
+  max-width: 100vw
+  width: 100vw
+
+.post-nav
+  position: relative
+  color: white
+  height: 100%
+  bottom: 0
+  left: 0
+
+.post-nav-title
+  position: absolute
+  bottom: 0
+  left: 0
+  background: rgba(0, 0, 0, .3)
+  padding: 1rem
+
 .block
   position: relative//important
   width: 100%
   height: 100%
-  background: white
+  background: #000000
 
 .block::before, .block::after
   content: ''

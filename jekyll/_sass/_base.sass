@@ -14,7 +14,6 @@ h4,
 h5,
 h6,
 p
-  position: relative
   background: none
   font-family: "open sans"
 
@@ -22,16 +21,11 @@ a
   color: inherit
   text-decoration: inherit
 
-.body-wrapper
-  min-width: 100%
-  min-height: 100vh
-
 .content-wrapper
   z-index: -10
-  margin-right: auto
-  margin-left: auto
-  min-width: 300px
-  max-width: 1000px
+  max-width: 1200px
+  width: calc(100vw - 6rem)
+  margin: 0 auto
 
 .welcome
   padding-top: 25%
@@ -41,3 +35,8 @@ a
 .footer
   position: relative
   min-height: 25vh
+
+.body-wrapper
+  position: relative
+  min-height: 100vh
+  padding-top: 100px
