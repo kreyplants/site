@@ -1,11 +1,16 @@
-<div class="nav-container-0">
-  <div class="nav-container-1">
-    <nav class="gradient-text block">
-      <div class="content-wrapper">
-      {% for item in site.data.nav %}
-      <a href="{{ item.link }}" {% if page.url == item.link %}class="current" {% endif %}>{{ item.name }}</a>
-      {% endfor %}
-      </div>
-    </nav>
-  </div>
-</div>
+  <nav>
+    <div class="wrapper-1200">
+      <div class="wrapper-nav">
+          <a href={{ "index.html" | relative_url }} class="brand">
+            <img src={{ "assets/img/kp-logo.png" | relative_url }}>
+            <p>KreyPlants</p></a>
+        <div class="nav-right">
+          <div class="nav-buttons">
+            <a href="https://www.instagram.com/kreyplants"><img src={{ "assets/img/twitter.png" | relative_url }} class="button-sm"></a>
+            <a href="https://www.twitter.com/kreyplants"><img src={{ "assets/img/instagram.png" | relative_url }} class="button-sm"></a>
+            <a href="#"><div class="button-sm button-menu"></div></a>
+          </div>
+        </div>
+      <div class="nav-color-bar"></div>
+    </div>
+  </nav>

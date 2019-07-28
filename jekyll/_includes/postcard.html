@@ -1,9 +1,9 @@
 <div class="post-card-container">
   <a href="{{ post.url }}">
-    <div class="post-img-container"><img src="{{ post.img }}">
+    <div class="post-img-container"><img src="{{ post.feat-img }}">
     </div>
     <div class="post-card-content">
-      <div class="post-date">{{ post.date }}</div>
+      <div class="post-date">{{ post.date | date: "%Y.%m.%d" }}</div>
       <div class="post-title">{{ post.title }}</div>
       <div class="post-category">{{ post.category }}</div>
     </div>

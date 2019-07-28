@@ -2,12 +2,12 @@
 layout: post
 category: science
 title: Kiwifruit
-img: /assets/img/hero-kiwi-bird.jpg
-date: 2018-08-22
+feat-img: /assets/img/cuttingKiwis.gif
+date: 2019-07-08
 author: Davy DeKrey
+intro: Kiwifruit (often abbreviated as kiwi), or Chinese gooseberry is the edible berry of several species of woody vines in the genus Actinidia.
 ---
-Kiwifruit (often abbreviated as kiwi), or Chinese gooseberry is the edible
-berry of several species of woody vines in the genus Actinidia.
+
 
 The most common cultivar group of kiwifruit is oval, about the size of a large
 hen's egg (5–8 cm (2.0–3.1 in) in length and 4.5–5.5 cm (1.8–2.2 in) in

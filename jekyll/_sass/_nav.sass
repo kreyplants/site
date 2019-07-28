@@ -1,75 +1,6 @@
-nav
-  padding: 20px
-  list-style: none
 
-nav a
-  position: relative
-  padding: 20px
-  color: #ffffff
-  text-decoration: none
-  font-weight: bold
-  filter: opacity(0.5)
-
-nav a:hover
-  color: transparent
-  filter: none
-
-.current
-  background: linear-gradient(90deg, rgb(219, 40, 241), rgb(33, 167, 224), rgb(0, 166, 117))
-  background-size: 500vw 500vh
-  -webkit-animation: Gradient 120s ease infinite
-  -moz-animation: Gradient 120s ease infinite
-  animation: Gradient 120s ease infinite
-  color: transparent
-  -moz-background-clip: text
-  -webkit-background-clip: text
-  filter: none
-
-.nav-container-0
-  position: fixed
-  top: 0
-  left: 0
-  width: 100%
-  z-index: 100
-
-.nav-container-1
-  width: 100%
-  height: 100%
-  z-index: 1 //important
-  background: #FFFFFF
-
-.post-nav-container-0
-  position: fixed
-  top: 0
-  left: 0
-  width: 100%
-  z-index: 100
-  height: 50vh
-  object-fit: cover
-
-.post-nav-container-1
-  width: 100%
-  height: 100%
-  z-index: 1 //important
-  background: white
-
-.post-nav-img
-  max-width: 100vw
-  width: 100vw
-
-.post-nav
-  position: relative
-  color: white
-  height: 100%
-  bottom: 0
-  left: 0
-
-.post-nav-title
-  position: absolute
-  bottom: 0
-  left: 0
-  background: rgba(0, 0, 0, .3)
-  padding: 1rem
+// Navigation Varibles
+$nav-h: 70px
 
 .block
   position: relative//important
@@ -84,9 +15,77 @@ nav a:hover
   left: 0px
   background: linear-gradient(90deg, rgb(219, 40, 241), rgb(33, 167, 224), rgb(0, 166, 117))
   background-size: 500vw 500vh
+  animation: Gradient 120s ease infinite
   width: 100%
   height: 100%
   z-index: -1//important
-  animation: Gradient 120s ease infinite
   &::after
   filter: blur(10px)
+
+// starting new code 2019.07.27
+nav
+  background: #ffffff
+
+.wrapper-nav
+  height: $nav-h
+  width: 100%
+  margin-bottom: 5px
+
+.brand
+  display: inline-block
+
+.brand img
+  height: 50px
+  width: 50px
+  padding: 10px 0 10px 0
+  display: inline-block
+  vertical-align: middle
+
+.brand p
+  text-transform: uppercase
+  font-weight: 800
+  font-size: 20px
+  line-height: $nav-h
+  display: inline-block
+  vertical-align: middle
+
+.nav-right
+  float: right
+  display: inline-block
+  height: $nav-h
+  width: auto
+  color: #ffffff
+  line-height: 30px
+  // background: #cccccc
+  margin: 0
+
+.nav-buttons
+
+.nav-buttons a
+  display: inline-block
+  height: 50px
+  width: 50px
+  text-align: center
+  margin: 10px 0  10px 0
+  // background: #dddddd
+
+
+.button-sm
+  display: block
+  height: 30px
+  width: 30px
+  border-radius: 20px
+  margin: 10px
+
+.button-menu
+  background: #000000
+
+.nav-color-bar
+  position: absolute
+  width: 100%
+  height: 5px
+  top: $nav-h
+  left: 0
+  background: linear-gradient(90deg, rgb(219, 40, 241), rgb(33, 167, 224), rgb(0, 166, 117))
+  background-size: 500vw 500vh
+  animation: Gradient 120s ease infinite
