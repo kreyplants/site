@@ -1,15 +1,24 @@
 ---
 layout: default
 ---
-<div class="wrapper-bg">
-
-</div>
-<div class="wrapper-800">
-  <div class="wrapper-post">
-    <h1 class="post-title">{{ page.title }}</h1>
-    <h3>{{ page.author }} | {{ page.date | date: "%Y.%m.%d" }}</h3>
-    <h2 class="post-intro">{{ page.intro }}</h2>
-      <img class="post-feat-img" src="{{ page.feat-img }}">
-    <p>{{ content }}</p>
+<div class="wrapper-bg"></div>
+<div class="wrapper-1200">
+  <div class="post-sharebar">
+    <p>share</p>
+    <a class="post-share-button"><img src={{ "/assets/img/fb-logo.png" }}></a>
+    <a class="post-share-button"><img src={{ "/assets/img/t-logo.png" }}></a>
+    <a class="post-share-button"><img src={{ "/assets/img/r-logo.png" }}></a>
+  </div>
+  <div class="wrapper-1000">
+    <div class="wrapper-post">
+      <h1>{{ page.title }}</h1>
+      <h4 class="post-by-line">{{ page.author }} • {{ page.date | date: "%b %d, %Y" }}</h4>
+      <h3 class="post-intro">{{ page.intro }}</h3>
+        <img class="post-feat-img" src="{{ page.feat-img }}">
+        <div class="wrapper-800">
+          <p>{{ content }}</p>
+          {% include qcc.html %}
+        </div>
+    </div>
   </div>
 </div>
