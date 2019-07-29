@@ -19,6 +19,8 @@ $card-height: 300px
 	text-align: center
 	background:  no-repeat
 	z-index: 10
+
+.hover-float
 	transition: 					all 1.5s ease
 	-o-transition: 				all 1.5s ease
 	-ms-transition: 			all 1.5s ease
@@ -30,10 +32,10 @@ $card-height: 300px
 	&::after
 		content: ''
 		width: 270px
-		height: 10px
+		height: 5px
+		border-radius: 50%
 		margin-left: -135px
 		background: rgba(0, 0, 0, 0.25)
-		border-radius: 50%
 		position: absolute
 		bottom: -15px
 		left: 50%

@@ -5,7 +5,7 @@ title: I named my cat after wheat
 feat-img: /assets/img/digalu-1.jpg
 date: 2019-07-27
 author: Davy DeKrey
-intro: Lorem ipsum dolor sit amet, consectetur adipiscing elit. Curabitur enim sapien, rhoncus vel massa quis, lacinia bibendum magna. Nulla ultricies nunc sed mauris consectetur faucibus. Etiam eget nibh commodo, laoreet turpis ut, placerat lectus.
+abstract: Lorem ipsum dolor sit amet, consectetur adipiscing elit. Curabitur enim sapien, rhoncus vel massa quis, lacinia bibendum magna. Nulla ultricies nunc sed mauris consectetur faucibus. Etiam eget nibh commodo, laoreet turpis ut, placerat lectus.
 ---
 Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
 Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed ac risus eu est euismod finibus sit amet eget mauris. Nullam non mattis massa. Nunc egestas, nisl a ultricies fermentum, odio nibh aliquam erat, in sagittis mi odio vel erat. In odio leo, vulputate ut neque ac, commodo varius nulla. Aliquam dapibus commodo massa nec malesuada. Etiam accumsan lectus pulvinar lacus vestibulum rhoncus. Donec commodo efficitur euismod. Ut volutpat velit id congue fringilla. Etiam pulvinar tincidunt felis, facilisis venenatis felis eleifend id.

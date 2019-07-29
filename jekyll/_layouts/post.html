@@ -2,23 +2,23 @@
 layout: default
 ---
 <div class="wrapper-bg"></div>
-<div class="wrapper-1200">
+<div class="wrapper-1000">
   <div class="post-sharebar">
     <p>share</p>
-    <a class="post-share-button"><img src={{ "/assets/img/fb-logo.png" }}></a>
-    <a class="post-share-button"><img src={{ "/assets/img/t-logo.png" }}></a>
-    <a class="post-share-button"><img src={{ "/assets/img/r-logo.png" }}></a>
+    <a class="post-share-button button-hover-float"><img src={{ "/assets/img/fb-logo.png" }}></a>
+    <a class="post-share-button button-hover-float"><img src={{ "/assets/img/t-logo.png" }}></a>
+    <a class="post-share-button button-hover-float"><img src={{ "/assets/img/r-logo.png" }}></a>
   </div>
-  <div class="wrapper-1000">
+  <div class="wrapper-800">
     <div class="wrapper-post">
       <h1>{{ page.title }}</h1>
-      <h4 class="post-by-line">{{ page.author }} • {{ page.date | date: "%b %d, %Y" }}</h4>
-      <h3 class="post-intro">{{ page.intro }}</h3>
-        <img class="post-feat-img" src="{{ page.feat-img }}">
-        <div class="wrapper-800">
-          <p>{{ content }}</p>
-          {% include qcc.html %}
-        </div>
+      <h4 class="post-by-line">{{ page.author }} | {{ page.date | date: "%b %d, %Y" }}</h4>
+      <img class="post-feat-img" src="{{ page.feat-img }}">
+
+      <p class="post-abstract">{{ page.abstract}}</p><br>
+      <p>{{ content }}</p>
+      {% include qcc.html %}
     </div>
   </div>
+  <a class="post-bottom-nav button-hover-float"><img src={{ "/assets/img/UP.png" }}></a>
 </div>
