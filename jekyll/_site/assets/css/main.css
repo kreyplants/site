@@ -63,50 +63,90 @@ a {
   background-size: 500vw 500vh;
   animation: Gradient 120s ease infinite; }
 
-.button-hover-float {
-  transition: all 1.5s ease;
-  -o-transition: all 1.5s ease;
-  -ms-transition: all 1.5s ease;
-  -moz-transition: all 1.5s ease;
-  -webkit-transition: all 1.5s ease;
+.button-hover-float50 {
+  transition: all 0.5s ease;
+  -o-transition: all 0.5s ease;
+  -ms-transition: all 0.5s ease;
+  -moz-transition: all 0.5s ease;
+  -webkit-transition: all 0.5s ease;
   color: white; }
-  .button-hover-float::before, .button-hover-float::after {
+  .button-hover-float50::before, .button-hover-float50::after {
     content: "";
-    width: 40px;
-    height: 10px;
-    margin-left: -20px;
+    width: 30px;
+    height: 7px;
+    margin-left: -15px;
     background: rgba(0, 0, 0, 0.25);
     border-radius: 50%;
     position: absolute;
-    bottom: -15px;
+    bottom: -7px;
     left: 50%;
     visibility: hidden;
     opacity: 0;
-    transition: all 1.5s ease;
-    -o-transition: all 1.5s ease;
-    -ms-transition: all 1.5s ease;
-    -moz-transition: all 1.5s ease;
-    -webkit-transition: all 1.5s ease;
-    margin-top: 20px; }
-  .button-hover-float:hover {
-    transform: translateY(-10px);
-    -o-transform: translateY(-10px);
-    -ms-transform: translateY(-10px);
-    -moz-transform: translateY(-10px);
-    -webkit-transform: translateY(-10px);
+    transition: all 0.5s ease;
+    -o-transition: all 0.5s ease;
+    -ms-transition: all 0.5s ease;
+    -moz-transition: all 0.5s ease;
+    -webkit-transition: all 0.5s ease; }
+  .button-hover-float50:hover {
+    transform: translateY(-5px);
+    -o-transform: translateY(-5px);
+    -ms-transform: translateY(-5px);
+    -moz-transform: translateY(-5px);
+    -webkit-transform: translateY(-5px);
     color: black; }
-    .button-hover-float:hover::before, .button-hover-float:hover::after {
-      transform: translateY(10px);
-      -o-transform: translateY(10px);
-      -ms-transform: translateY(10px);
-      -moz-transform: translateY(10px);
-      -webkit-transform: translateY(10px);
+    .button-hover-float50:hover::before, .button-hover-float50:hover::after {
+      transform: translateY(5px);
+      -o-transform: translateY(5px);
+      -ms-transform: translateY(5px);
+      -moz-transform: translateY(5px);
+      -webkit-transform: translateY(5px);
       visibility: visible;
       opacity: 0.5; }
-    .button-hover-float:hover .post-img-container {
+    .button-hover-float50:hover .post-img-container {
       background: white; }
-    .button-hover-float:hover img {
-      opacity: 0.2; }
+
+.button-hover-float30 {
+  transition: all 0.5s ease;
+  -o-transition: all 0.5s ease;
+  -ms-transition: all 0.5s ease;
+  -moz-transition: all 0.5s ease;
+  -webkit-transition: all 0.5s ease;
+  color: white; }
+  .button-hover-float30::before, .button-hover-float30::after {
+    content: "";
+    width: 20px;
+    height: 7px;
+    margin-left: -5px;
+    background: rgba(0, 0, 0, 0.25);
+    border-radius: 50%;
+    position: absolute;
+    bottom: -2px;
+    left: 50%;
+    visibility: hidden;
+    opacity: 0;
+    transition: all 0.5s ease;
+    -o-transition: all 0.5s ease;
+    -ms-transition: all 0.5s ease;
+    -moz-transition: all 0.5s ease;
+    -webkit-transition: all 0.5s ease;
+    margin-top: 20px; }
+  .button-hover-float30:hover {
+    transform: translateY(-5px);
+    -o-transform: translateY(-5px);
+    -ms-transform: translateY(-5px);
+    -moz-transform: translateY(-5px);
+    -webkit-transform: translateY(-5px);
+    color: black; }
+    .button-hover-float30:hover::before, .button-hover-float30:hover::after {
+      transform: translateY(5px);
+      -o-transform: translateY(5px);
+      -ms-transform: translateY(5px);
+      -moz-transform: translateY(5px);
+      -webkit-transform: translateY(5px);
+      visibility: visible;
+      opacity: 0.5; }
+    .button-hover-float30:hover .post-img-container {
+      background: white; }
 
 .block {
   position: relative;
@@ -171,10 +211,9 @@ nav {
 
 .button-sm {
   display: block;
-  height: 30px;
-  width: 30px;
-  border-radius: 20px;
-  margin: 10px; }
+  height: 20px;
+  width: 20px;
+  margin: 20px; }
 
 .button-menu {
   background: #000000; }
@@ -363,12 +402,6 @@ p {
   border-radius: 40px;
   margin: 25px 0 25px 0; }
 
-.page-tear {
-  margin: 0px 0 -98px 0; }
-  .page-tear img {
-    width: 802px;
-    transform: translateX(-52px); }
-
 .post-by-line {
   color: #999999; }
 
@@ -385,28 +418,55 @@ p {
     text-transform: uppercase;
     color: #ffffff;
     font-size: 18px;
-    transform: translateY(-40px);
-    font-weight: 800; }
+    font-weight: 800;
+    transform: translateY(-40px); }
 
-.post-bottom-nav {
+.post-bot-button {
+  position: relative;
+  display: block;
+  height: 70px;
+  width: 70px; }
+  .post-bot-button img {
+    height: 30px;
+    width: 30px;
+    margin: 20px 0px 15px 20px; }
+  .post-bot-button::before, .post-bot-button::after {
+    margin: 0px 0px 10px -10px; }
+
+.bottom-nav-container {
   position: sticky;
   display: block;
-  bottom: 25px;
-  height: 50px;
-  width: 50px;
+  background: #dddddd;
+  transform: translateY(-15px);
+  display: block;
+  bottom: 35px;
+  height: 70px;
+  width: 70px;
   border-radius: 35px;
   background-color: #ffffff;
-  margin: auto 0 auto auto; }
-  .post-bottom-nav img {
-    height: 50px;
-    width: 50px; }
+  margin: 0 0 auto auto;
+  align-content: center; }
+
+.button-container {
+  height: 100%;
+  width: 100%;
+  transform: translateY(-40px); }
 
 .post-share-button {
   display: block;
   height: 50px;
   width: 50px;
-  margin: 10px 10px 0 10px;
-  transform: translateY(-40px); }
+  margin: 10px 10px 0 10px; }
 
-.qcc-amendment h3 {
-  font-weight: 800; }
+.page-tear {
+  margin: 0 auto;
+  padding: 50px 0; }
+  .page-tear img {
+    width: 802px;
+    transform: translateX(-52px); }
+
+.qcc-amendment {
+  transform: translateY(-95px);
+  margin: 0 0 -145px 0; }
+  .qcc-amendment h3 {
+    font-weight: 800; }

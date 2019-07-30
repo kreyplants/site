@@ -5,9 +5,11 @@ layout: default
 <div class="wrapper-1000">
   <div class="post-sharebar">
     <p>share</p>
-    <a class="post-share-button button-hover-float"><img src={{ "/assets/img/fb-logo.png" }}></a>
-    <a class="post-share-button button-hover-float"><img src={{ "/assets/img/t-logo.png" }}></a>
-    <a class="post-share-button button-hover-float"><img src={{ "/assets/img/r-logo.png" }}></a>
+    <div class="button-container">
+      <a class="post-share-button button-hover-float50"><img src={{ "/assets/img/fb-logo.png" }}></a>
+      <a class="post-share-button button-hover-float50"><img src={{ "/assets/img/t-logo.png" }}></a>
+      <a class="post-share-button button-hover-float50"><img src={{ "/assets/img/r-logo.png" }}></a>
+    </div>
   </div>
   <div class="wrapper-800">
     <div class="wrapper-post">
@@ -20,5 +22,7 @@ layout: default
       {% include qcc.html %}
     </div>
   </div>
-  <a class="post-bottom-nav button-hover-float"><img src={{ "/assets/img/UP.png" }}></a>
+  <div class="bottom-nav-container">
+    <a class="post-bot-button button-hover-float30"><img src={{ "/assets/img/UP.png" }}></a>
+  </div>
 </div>
